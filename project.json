@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0-*",
+  "description": "ConsoleApp1 Console Application",
+  "authors": [ "enum" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "ConsoleApp1": "ConsoleApp1"
+  },
+
+  "frameworks": {
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Console": "4.0.0-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Threading": "4.0.11-beta-23516",
+        "Microsoft.AspNet.Cryptography.KeyDerivation": "1.0.0-rc1-final"
+      }
+    }
+  }
+}
