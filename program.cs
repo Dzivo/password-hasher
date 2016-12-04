@@ -1,6 +1,6 @@
 using System;
-using Microsoft.AspNet.Cryptography.KeyDerivation;
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Text;
 
 namespace ConsoleApp1
